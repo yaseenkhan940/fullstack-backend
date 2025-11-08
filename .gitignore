@@ -1,17 +1,14 @@
-# Python
+# Ignore virtual environments
 venv/
+
+# Ignore compiled Python files
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.Python
-env/
-.env
 
-# IDE
+# Ignore logs and PID files
+*.log
+*.pid
+
+# Ignore editor settings
 .vscode/
-.idea/
-
-# System
-Thumbs.db
 .DS_Store
